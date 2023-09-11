@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgba(37, 59, 92, 0.911);
+    position: fixed;
+    height: 80px;
+    color: white;
+}
+.navbar-nav li{
+width: 200px;
+height: 50px;
+margin-left: 10px;
+text-align: center;
+font-size: larger;
+background-color:  rgba(37, 59, 92, 0.911);
+}
+.navbar-nav li:hover{
+    background-color: rgb(100, 173, 85);
+    border-radius: 50%;
+}
+@media(max-width:996px){
+    .nav-link{
+        margin-right: 0px;
+        margin-bottom: 10px!important;
+    }
+}
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(53, 158, 32);
+    overflow: hidden;
+    justify-content: center;
+    float: left;
+   }
+   .footer1{
+    font-size: large;
+    color: white;
+   }
+  
